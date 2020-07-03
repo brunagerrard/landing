@@ -1,36 +1,23 @@
 Requirements for this project:
 
 #1_ Page has a HEADER element with id="header"
-yes
 
 #2_ Image within the header with id="header-img" (company logo)
-yes
-
 
 #3_ Within #header there is a NAV element with id="nav-bar" that is always at the top of the VIEWPORT
-yes
 
 #4_ At least 3 clickable items inside NAV, each with .nav-link
-yes
 
 #5_ Links take you to page section
-yes
 
 #6_ There's an embedded video with id="video"
-yes
 
 #7_ Has a FORM element with id="form"
-yes
 
 #8_ Inside the form there's an email field with id="email", with PLACEHOLDER text and html5 validation
-yes
-
 
 #9_ There's a submit input with id="submit" that submits the email to a static page (https://www.freecodecamp.com/email-submit)
-yes
 
-#10_ Has to have at least 1 media query
-yes 
+#10_ Has to have at least 1 media query 
 
 #11_ Has to use FLEXBOX at least once.
-yes

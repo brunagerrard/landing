@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@1&display=swap');
+
+body {
+	background-image: linear-gradient(45deg, #e0d3ff, #eedbf1);
+}
+
+#header {
+	background-image: linear-gradient(90deg, #9272da, #cb7bd2);
+	width: 100%;
+	height: 100px;
+	top: 0;
+	margin: -15px;
+	padding: 15px;
+	position: fixed;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#header-txt {
+	font-family: "IM Fell English", "serif";
+	font-size: 28px;
+	font-weight: 400;
+	color: white;
+	text-align: center;
+	flex-grow: 3;
+	margin-right: -60px;
+}
+
+#header-img {
+	width: 60px;
+	height: 71px;
+	flex-grow: 0;
+	padding: 10px 10px 0 10px;
+	margin: auto;
+}
+
+.break {
+	flex-basis: 100%;
+	height: 0;
+}
+
+#nav-bar {
+	line-height: 5px;
+}
+
+.nav-link {
+	font-family: "Roboto", "sans-serif";
+	font-size: 18px;
+	font-weight: 300;
+	padding: 10px;
+	color: #f4e1ff;
+	text-underline-position: under;
+	text-transform: uppercase;
+	margin-top: -10px;
+}
+
+.nav-link:hover {
+	color: white;
+	background-color: #d853f4;
+}
+
+#form {
+	max-width: 400px;
+	margin: 150px auto 30px auto;
+	display: flex;
+	justify-content: center;
+}
+
+#email {
+	font-family: "Montserrat", "sans-serif";
+	font-size: 16px;
+	padding: 5px;
+	border: none;
+	align-items: center;
+}
+
+#submit {
+	border-style: none;
+	padding: 2px;
+	font-family: "Roboto", "sans-serif";
+	font-weight: 500;
+	font-size: 14px;
+	color: white;
+	background-color: #d853f4;
+	align-items: center;
+}
+	
+#submit:hover {
+	background-color: #9272da;
+	transition: background-color 1s;
+	cursor: pointer;
+}
+	
+#container {
+	max-width: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	flex-direction: row;
+	align-items: center;
+}
+
+.textcolumn {
+	width: 350px;
+	font-family: "Roboto", "sans-serif";
+	font-size: 12px;
+	font-weight: 500;
+	color: #575757;
+	letter-spacing: 2px;
+	padding: 10px;
+	margin-left: 20px;
+	text-align: justify;
+}
+
+h1.title {
+	font-family: "Work Sans", "sans-serif";
+	font-size: 20px;
+	font-weight: 400;
+	color: #fff;
+	background-image: linear-gradient(90deg, #fc49e450, rgba(162, 56, 248, 0.562));
+	display: inline;
+	padding: 3px;
+}
+
+iframe {
+	display: flex;
+	align-self: center;
+	margin: 10px auto;
+	padding-top: 30px;
+}
+
+#pricing {
+	max-width: 850px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 15px auto 70px auto;
+}
+
+.product {
+	max-width: 270px;
+	width: calc(100% / 3);
+	border: 2px solid #9272da;
+	background-color: rgba(246, 238, 253, 0.562);
+	margin: auto 5px;
+}
+
+.product > .title {
+	background-color: #9272da;
+	color: #fff;
+	padding: 10px 0;
+	text-align: center;
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.product h2 {
+	font-family: "Montserrat", "sans-serif";
+	font-size: 30px;
+	color: #d853f4;
+	text-align: center;
+}
+
+.product ul {
+	margin-left: -20px;
+}
+
+.product li {
+	list-style: none;
+	font-family: "Work Sans", "sans-serif";
+	font-size: 14px;
+	color: #575757;
+	line-height: 30px;
+}
+
+i {
+	color: #19d360;
+	padding: 3px;
+}
+
+.select-button {
+	border-style: none;
+	padding: 5px;
+	font-family: "Roboto", "sans-serif";
+	font-weight: 500;
+	font-size: 20px;
+	color: white;
+	background-color: #d853f4;
+	display: block;
+	margin: 15px auto 20px;
+}
+
+button:hover {
+	background-color: #9272da;
+	transition: background-color 1s;
+	cursor: pointer;
+}
+
+button:active {
+	padding: 6px;
+}
+
+@media (max-width: 850px) {
+	#pricing {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	
+	}
+	.product {
+		width: 60%;
+		max-width: 400px;
+		margin: 15px auto;
+	}
+}
+
+footer {
+	background-image: linear-gradient(-90deg, #9272da, #cb7bd2);	width: 100%;
+	height: auto;
+	margin: 30px -15px -15px -15px;
+	bottom: 0;
+	position: fixed;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+footer > ul {
+	display: flex;
+	justify-content: center;
+	padding: 0;
+}
+
+footer > ul > li {
+	list-style: none;
+	padding: 5px;
+	font-family: "Roboto", "sans-serif";
+	font-size: 14px;
+	font-weight: 300;
+	align-items: center;
+}
+
+footer a {
+	color: #f4e1ff;
+	text-underline-position: under;
+	text-transform: uppercase;
+}
